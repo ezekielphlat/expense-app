@@ -1,12 +1,13 @@
 import { Controller, Get } from '@nestjs/common';
-import { AppService } from './app.service';
 
-@Controller()
+@Controller('report/income')
 export class AppController {
-  constructor(private readonly appService: AppService) {}
-
-  @Get()
-  getHello(): string {
-    return this.appService.getHello();
+  @Get('')
+  getAllIncomeReports() {
+    return [];
+  }
+  @Get(':id')
+  getIncomeReportById() {
+    return {};
   }
 }
