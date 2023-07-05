@@ -30,5 +30,21 @@ export const data: Data = {
       updated_at: new Date(),
       type: ReportType.EXPENSE,
     },
+    {
+      id: 'uuid3',
+      source: 'Food',
+      amount: 7500,
+      created_at: new Date(),
+      updated_at: new Date(),
+      type: ReportType.INCOME,
+    },
+    {
+      id: 'uuid4',
+      source: 'Crayon',
+      amount: 2500,
+      created_at: new Date(),
+      updated_at: new Date(),
+      type: ReportType.EXPENSE,
+    },
   ],
 };
